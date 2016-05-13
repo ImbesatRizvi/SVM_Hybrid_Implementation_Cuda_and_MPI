@@ -1,0 +1,3 @@
+nvcc -c SVM_SMO_func.cu -o SVM_SMO_func.o
+mpicc -c SVM_SMO_hybrid.c -o SVM_SMO_hybrid.o -lm
+mpicc SVM_SMO_hybrid.o SVM_SMO_func.o -lcudart -L /usr/local/cuda-7.5/lib64 -o SVM_SMO_hybrid -lstdc++
