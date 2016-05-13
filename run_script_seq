@@ -1,0 +1,1 @@
+~/PP_Project/SVM_SMO_seq /home/secriz/PP_Project/Income_Classification_data.txt 80 0.001 100 0.5 200000
