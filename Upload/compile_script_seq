@@ -1,1 +1,0 @@
-gcc -o SVM_SMO_seq ~/PP_Project/SVM_SMO_seq.c -lrt -lm

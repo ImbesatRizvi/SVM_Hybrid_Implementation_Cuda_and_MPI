@@ -1,1 +1,0 @@
-mpicc -o SVM_MPI_cascade SVM_MPI_cascade.c -lm
